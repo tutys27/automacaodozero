@@ -16,8 +16,10 @@ Esquema do Cenario: Incluir produtos no carrinho
 
 Exemplos: 
 | produto  |carrinho |
-|"pneu"    | "pneu"  |
-|"celular" |"celular"|
+|"pneu"    | "Kit 4 Pneus 165/70R13 Assurance Goodyear 79T - Original Chevrolet Celta"     |
+|"cilios"  | "MÁSCARA DE CÍLIOS MAYBELLINE THE FALSIES EFEITO CÍLIOS POSTIÇOS SUPER FILME"|
+#|"celular"  | "Moto G6 Plus Indigo" |
+
 
 
 #Dicas
