@@ -4,7 +4,7 @@ Dado("que eu esteja na home page do site Submarino") do
   end
   
   Quando("pesquisar por um {string}") do |produto|
-    @pagina_sub.wait_until_campo_produto_visible(40) #esperar renderizar a tela por até 20 segundos antes de prosseguir
+    @pagina_sub.wait_until_campo_produto_visible(20) #esperar renderizar a tela por até 20 segundos antes de prosseguir
     @pagina_sub.campo_produto.set produto #escreve o que está no exemplo produto
     @pagina_sub.campo_produto.send_keys(:enter) #tecla enter
   end
